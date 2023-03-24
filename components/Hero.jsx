@@ -3,6 +3,11 @@ import React from 'react'
 import { BsChevronDown } from 'react-icons/bs'
 
 const Hero = () => {
+
+  const handleScroll = () => {
+    window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })
+  }
+
   return (
     <>
       <div className="w-full h-screen bg-hero text-[#181A1F]">
@@ -29,7 +34,11 @@ const Hero = () => {
               </div>
             </div>
 
-            <BsChevronDown className='text-xl animate-pulse text-center w-full' style={{animationDuration: '2s'}} />
+            <BsChevronDown
+              onClick={handleScroll}
+              className='text-xl animate-pulse text-center w-10 mx-auto cursor-pointer'
+              style={{animationDuration: '2s'}}
+            />
 
           </div>
 
