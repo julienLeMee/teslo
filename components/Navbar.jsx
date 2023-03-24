@@ -95,22 +95,46 @@ const Navbar = () => {
         {nav ? <AiOutlineClose size={20} style={{color: 'white'}} className='hover:cursor-pointer' /> : <AiOutlineMenu size={20} style={{color: 'black'}} className='hover:cursor-pointer' />}
       </div>
       {/* Mobile Menu */}
-      <div className={ nav ? 'absolute top-0 right-0 bottom-0 flex flex-col justify-evenly py-10 items-center w-full lg:w-[20%] h-screen bg-white text-center ease-in duration-500' : 'absolute top-0 right-[-100%] bottom-0 flex flex-col justify-evenly py-10 items-center w-full lg:w-[20%] h-screen bg-black text-center ease-in duration-500'}>
+      <div className={ nav ? 'absolute top-0 right-0 bottom-0 flex flex-col justify-evenly py-10 items-center w-full lg:w-[20%] h-screen bg-white ease-in duration-500' : 'absolute top-0 right-[-100%] bottom-0 flex flex-col justify-evenly py-10 items-center w-full lg:w-[20%] h-screen bg-black text-center ease-in duration-500'}>
         <AiOutlineClose onClick={handleNav} size={20} style={{color: 'black'}} className='hover:cursor-pointer' />
         <ul>
-          <li onClick={handleNav} className='p-4 text-black/80 hover:text-[var(--red)]'>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
             <Link href='/'>Accueil</Link>
           </li>
-          <li onClick={handleNav} className='p-4 text-black/80 hover:text-[var(--red)]'>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
             <Link href='/histoire'>Notre histoire</Link>
           </li>
-          <li onClick={handleNav} className='p-4 text-black/80 hover:text-[var(--red)]'>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
             <Link href='/produits'>Nos produits</Link>
           </li>
-          <li onClick={handleNav} className='p-4 text-black/80 hover:text-[var(--red)]'>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
             <Link href='/blog'>Blog</Link>
           </li>
-          <li onClick={handleNav} className='p-4 text-black/80 hover:text-[var(--red)]'>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
+            <Link href='/contact'>Contact</Link>
+          </li>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
+            <Link href='/'>Accueil</Link>
+          </li>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
+            <Link href='/histoire'>Notre histoire</Link>
+          </li>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
+            <Link href='/produits'>Nos produits</Link>
+          </li>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
+            <Link href='/blog'>Blog</Link>
+          </li>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
+            <Link href='/contact'>Contact</Link>
+          </li>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
+            <Link href='/produits'>Nos produits</Link>
+          </li>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
+            <Link href='/blog'>Blog</Link>
+          </li>
+          <li onClick={handleNav} className='text-black/80 hover:text-black/60 cursor- py-2 text-sm'>
             <Link href='/contact'>Contact</Link>
           </li>
         </ul>
