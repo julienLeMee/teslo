@@ -98,51 +98,51 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className={ nav ? 'absolute top-0 right-0 bottom-0 flex flex-col justify-between py-10 items-center w-full lg:w-[22%] h-screen bg-white ease-in duration-500' : 'absolute top-0 right-[-100%] bottom-0 flex flex-col justify-between py-10 items-center w-full lg:w-[22%] h-screen bg-white ease-in duration-500'}>
         <div className="w-[80%] flex justify-end">
-          <AiOutlineClose onClick={handleNav} size={25} style={{color: 'black'}} className='hover:cursor-pointer' />
+          <AiOutlineClose onClick={handleNav} size={40} style={{color: 'black'}} className='hover:cursor-pointer text-black/80 hover:bg-black/10 rounded p-2' />
         </div>
         <div className="w-[80%] h-full flex flex-col justify-center">
           <ul className='w-full'>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Accueil</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Notre histoire</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Nos produits</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Blog</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Contact</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Accueil</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Notre histoire</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Nos produits</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Blog</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Contact</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Nos produits</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Blog</Link>
             </li>
-            <li onClick={handleNav} className='text-black/80 hover:text-black/60 p-1 text-sm'>
+            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Contact</Link>
             </li>
           </ul>
-          <div className="p-1 flex items-center">
+          <div className="p-1 flex items-center text-black/80 hover:bg-black/10 rounded pl-2">
             <GrLanguage size={20} style={{color: 'black'}} className='hover:cursor-pointer mr-2' />
             <p className='pt-2 text-sm'>Canada</p>
           </div>
