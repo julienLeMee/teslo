@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <>
-    <div className="w-full flex items-center justify-between py-4 px-8 fixed text-black/80 font-medium">
+    <div className="w-full flex items-center justify-between py-4 px-8 fixed text-black/80 font-medium z-[100]">
       <Link href='/'>
         <Image
           src={logo}
@@ -20,39 +20,39 @@ const Navbar = () => {
 
       <div>
         <ul className='flex tracking-wide text-sm'>
-          <li className='h-full ml-2 my-auto'>
+          <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
             <Link
-              className='mr-4'
+              className='p-4'
               href='/'>Model S
             </Link>
           </li>
-          <li className='h-full ml-2 my-auto'>
+          <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
             <Link
-              className='mr-4'
+              className='p-4'
               href='/about'>Model 3
             </Link>
           </li>
-          <li className='h-full ml-2 my-auto'>
+          <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
             <Link
-              className='mr-4'
+              className='p-4'
               href='/contact'>Model X
             </Link>
           </li>
-          <li className='h-full ml-2 my-auto'>
+          <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
             <Link
-              className='mr-4'
+              className='p-4'
               href='/contact'>Model Y
             </Link>
           </li>
-          <li className='h-full ml-2 my-auto'>
+          <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
             <Link
-              className='mr-4'
+              className='p-4'
               href='/contact'>Cybertruck
             </Link>
           </li>
-          <li className='h-full ml-2 my-auto'>
+          <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
             <Link
-              className='mr-4'
+              className='p-4'
               href='/contact'>Powerwall
             </Link>
           </li>
@@ -61,21 +61,21 @@ const Navbar = () => {
 
       <div>
         <ul className='flex tracking-wide text-sm'>
-          <li className='h-full ml-2 my-auto'>
+          <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
             <Link
-              className='mr-4'
+              className='p-4'
               href='/'>Shop
             </Link>
           </li>
-          <li className='h-full ml-2 my-auto'>
+          <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
             <Link
-              className='mr-4'
+              className='p-4'
               href='/about'>Account
             </Link>
           </li>
-          <li className='h-full ml-2 my-auto'>
+          <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
             <Link
-              className='mr-4'
+              className='p-4'
               href='/contact'>Menu
             </Link>
             </li>
