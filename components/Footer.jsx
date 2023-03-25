@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
-      <div className="absolute flex items-center justify-center w-full py-4 px-8 text-black/80 z-[100]">
+      <div className=" flex items-center justify-center w-full py-4 px-8 text-black/80 z-[100]">
         <div>
           <ul className='tracking-wide text-sm hidden sm:flex'>
             <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
