@@ -19,14 +19,14 @@ const Hero = () => {
               <div className="flex flex-col md:flex-row items-center justify-between w-full">
                 <Link
                   href='/'
-                  className="bg-black/70 w-60 mx-auto text-center m-2 my-2 md:my-0 rounded text-white text-sm h-full cursor-pointer">
+                  className="bg-black/70 mr-2 w-full mx-auto text-center m-2 my-2 md:my-0 rounded text-white text-sm h-full cursor-pointer">
                   <span className='py-1 mt-2 flex items-center justify-center h-full my-auto'>
                     Custom Order
                   </span>
                 </Link>
                 <Link
                   href='/'
-                  className="bg-white/80 w-60 mx-auto text-center m-2 my-2 md:my-0 rounded text-[#181A1F] text-sm h-full cursor-pointer">
+                  className="bg-white/80 w-full mx-auto text-center m-2 my-2 md:my-0 rounded text-[#181A1F] text-sm h-full cursor-pointer">
                   <span className='py-1 mt-2 flex items-center justify-center h-full my-auto'>
                     Demo Drive
                   </span>
