@@ -1,7 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import React from 'react'
-// import { cybertruckLogo } from '../public/cybertruck-logo.svg'
 
 const cybertruck = () => {
   return (
@@ -9,8 +8,8 @@ const cybertruck = () => {
       <Navbar />
       <div className="w-full h-screen bg-model-cybertruck-details">
         <div className="flex flex-col justify-between h-full py-10">
-          <div className="flex flex-col">
-            <img src='../public/cybertruck-logo.svg' alt="Cybertruck Logo" className="w-20 h-20 mx-auto" />
+          <div className="flex flex-col mt-10">
+            <img src="cybertruck.svg" alt="Cybertruck Logo" className="w-[350px] h-[120px] object-cover mx-auto" />
             <p className="text-center text-xs tracking-wide">BETTER UTILITY THAN A TRUCK WITH MORE PERFORMANCE THAN A SPORTS CAR</p>
           </div>
             <div className="w-full h-32 md:w-[50%] max-w-[90%] mx-auto flex justify-center text-white">
