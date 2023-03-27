@@ -36,8 +36,7 @@ const Hero = () => {
 
             <BsChevronDown
               onClick={handleScroll}
-              className='text-xl animate-pulse text-center w-10 mx-auto cursor-pointer'
-              style={{animationDuration: '2s'}}
+              className='text-xl animate-bounce text-center w-10 mx-auto cursor-pointer'
             />
 
           </div>

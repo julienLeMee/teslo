@@ -122,16 +122,3 @@ body {
   /* background-attachment: fixed; */
   max-height: 100vh;
 }
-
-/* Animation */
-@keyframes pulse {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(8px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
