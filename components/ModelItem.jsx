@@ -33,14 +33,14 @@ const ModelItem = ( { model, subtitle, bgImg, btn, secondBtn, km, s, speed, hp }
                 <div className="w-[80%] flex flex-col md:flex-row items-center justify-center mx-auto">
                   <Link
                     href='/'
-                    className="mr-2 w-full mx-auto text-center m-2 my-2 md:my-0 rounded text-white text-sm h-full cursor-pointer border-4">
+                    className="hover:bg-white/90 hover:text-black mr-2 w-full mx-auto text-center m-2 my-2 md:my-0 rounded text-white text-sm h-full cursor-pointer border-4 duration-300">
                     <span className='py-1 mt-1 flex items-center justify-center h-full my-auto'>
                       {btn}
                     </span>
                   </Link>
                   <Link
                     href='/'
-                    className={`${secondBtn} bg-black/70 mr-2 w-full mx-auto text-center m-2 my-2 md:my-0 rounded text-white text-sm h-full cursor-pointer`}>
+                    className={`${secondBtn} bg-black/70 hover:bg-[#393C41] mr-2 w-full mx-auto text-center m-2 my-2 md:my-0 rounded text-white text-sm h-full cursor-pointer duration-300`}>
                     <span className='py-1 mt-1 flex items-center justify-center h-full my-auto'>
                       Demo Drive
                     </span>
