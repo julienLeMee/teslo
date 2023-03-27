@@ -17,28 +17,28 @@ const powerwall = () => {
             <h1 className="text-4xl text-white tracking-wider font-medium text-center pt-20">Powerwall</h1>
           </div>
             <div className="w-full h-32 md:w-[50%] max-w-[90%] mx-auto flex justify-center items-center text-white">
-              <div className="flex flex-col w-full items-center justify-around">
+              <div className="flex flex-col md:flex-row w-full items-center justify-around">
                 <ul className='flex w-full items-center justify-around'>
                   <div className="flex flex-col items-center justify-center">
-                    <SlEnergy className="text-xl font-medium text-center h-full" />
-                    <p className='text-xs p-2'>Store Energy</p>
-                  </div>
-                  <div className="flex flex-col">
-                    <li className="text-xl font-medium text-center h-full">24/7</li>
-                    <p className='text-xs p-2'>Backup Protection</p>
+                    <SlEnergy className="text-4xl font-medium text-center h-full pb-2" />
+                    <p className='text-xs py-1'>Store Energy</p>
                   </div>
                   <div className="flex flex-col items-center justify-center">
-                    <MdOutlineEnergySavingsLeaf className="text-xl font-medium text-center h-full" />
-                    <p className='text-xs p-2'>Power Your Home</p>
+                    <li className="text-3xl font-medium text-center h-full pt-3">24/7</li>
+                    <p className='text-xs py-1'>Backup Protection</p>
                   </div>
-                  <Link
-                    href='/'
-                    className="hover:bg-white/90 hover:text-black mr-2 w-36 mx-auto text-center m-2 my-2 md:my-0 rounded text-white text-sm h-full cursor-pointer border-4 duration-300">
-                    <span className='py-1 mt-1 flex items-center justify-center h-full my-auto'>
-                      Get Updates
-                    </span>
-                  </Link>
+                  <div className="flex flex-col items-center justify-center">
+                    <MdOutlineEnergySavingsLeaf className="text-4xl font-medium text-center h-full pb-2" />
+                    <p className='text-xs py-1'>Power Your Home</p>
+                  </div>
                 </ul>
+                <Link
+                  href='/'
+                  className="hover:bg-white/90 hover:text-black mr-2 w-full md:w-[250px] mx-auto text-center m-2 my-2 md:my-0 rounded text-white text-sm h-full cursor-pointer border-4 duration-300">
+                  <span className='text-center mt-2 flex items-center justify-center h-full my-auto'>
+                    Get Updates
+                  </span>
+                </Link>
               </div>
             </div>
         </div>
