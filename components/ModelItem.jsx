@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 
-const ModelItem = ( { model, subtitle, bgImg, btn, secondBtn, km, s, speed, hp } ) => {
+const ModelItem = ( { textColor, model, subtitle, bgImg, btn, secondBtn, km, s, speed, hp } ) => {
   return (
     <>
-      <div className={`w-full h-screen ${bgImg} text-[#181A1F]`}>
+      <div className={`w-full h-screen ${bgImg} ${textColor}`}>
         <div className="flex flex-col justify-between h-full py-10">
           <div className="flex flex-col">
             <h1 className="text-4xl tracking-wider font-medium text-center pt-20">{model}</h1>

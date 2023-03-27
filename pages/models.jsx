@@ -7,6 +7,7 @@ const models = () => {
     <>
       <Navbar />
       <ModelItem
+        textColor='text-[#181A1F]'
         model='Model S'
         subtitle='Plaid'
         bgImg='bg-model-s-details'

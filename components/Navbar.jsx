@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { GrLanguage } from 'react-icons/gr'
 
-const Navbar = () => {
+const Navbar = ({ textColor, logoColor }) => {
 
   const [nav, setNav] = useState(false)
 
@@ -16,14 +16,14 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full flex items-center justify-between py-4 px-8 fixed text-black/80 font-medium z-[50]">
+      <div className={`w-full flex items-center justify-between py-4 px-8 fixed ${textColor} font-medium z-[50]`}>
         <Link href='/'>
           <Image
             src={logo}
             width={80}
             height='auto'
             alt='logo'
-            className='cursor-pointer object-cover mx-4 my-2'
+            className={`cursor-pointer object-cover mx-4 my-2 ${logoColor}`}
             priority
           />
         </Link>
@@ -33,37 +33,37 @@ const Navbar = () => {
             <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
-                href='/'>Model S
+                href='/models'>Model S
               </Link>
             </li>
             <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
-                href='/'>Model 3
+                href='/model3'>Model 3
               </Link>
             </li>
             <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
-                href='/'>Model X
+                href='/modelx'>Model X
               </Link>
             </li>
             <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
-                href='/'>Model Y
+                href='/modely'>Model Y
               </Link>
             </li>
             <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
-                href='/'>Cybertruck
+                href='/cybertruck'>Cybertruck
               </Link>
             </li>
             <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
-                href='/'>Powerwall
+                href='/powerwall'>Powerwall
               </Link>
             </li>
           </ul>
