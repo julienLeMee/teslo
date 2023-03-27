@@ -114,6 +114,15 @@ body {
   max-height: 100vh;
 }
 
+.bg-model-powerwall-details {
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/dede7688-4a2a-49ff-9696-5052e8f6cf6e/bvlatuR/std/2880x1800/PW-Hero-Desktop-EMEA?quality=auto-medium&format=auto");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  max-height: 100vh;
+}
+
 /* Animation */
 @keyframes pulse {
   0% {

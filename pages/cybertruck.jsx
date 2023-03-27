@@ -1,11 +1,11 @@
-import CybertruckNavbar from '@/components/CybertruckNavbar'
+import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import React from 'react'
 
 const cybertruck = () => {
   return (
     <>
-      <CybertruckNavbar />
+      <Navbar />
       <div className="w-full h-screen bg-model-cybertruck-details">
         <div className="flex flex-col justify-between h-full py-10">
           <div className="flex flex-col mt-10">
