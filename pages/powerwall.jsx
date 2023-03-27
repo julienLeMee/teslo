@@ -16,7 +16,7 @@ const powerwall = () => {
           <div className="flex flex-col">
             <h1 className="text-4xl text-white tracking-wider font-medium text-center pt-20">Powerwall</h1>
           </div>
-            <div className="w-full h-32 md:w-[50%] max-w-[90%] mx-auto flex justify-center text-white">
+            <div className="w-full h-32 md:w-[50%] max-w-[90%] mx-auto flex justify-center items-center text-white">
               <div className="flex flex-col w-full items-center justify-around">
                 <ul className='flex w-full items-center justify-around'>
                   <div className="flex flex-col items-center justify-center">
