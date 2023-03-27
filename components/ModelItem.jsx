@@ -14,19 +14,19 @@ const ModelItem = ( { textColor, model, subtitle, bgImg, btn, secondBtn, km, s, 
               <div className="flex flex-col w-full items-center justify-around">
                 <ul className='flex w-full items-center justify-around'>
                   <div className="flex flex-col">
-                    <li className="text-xl font-medium text-center h-full">{km} km</li>
+                    <li className="text-sm md:text-lg lg:text-xl font-medium text-center h-full">{km} km</li>
                     <p className='text-xs p-2'>Range (EPA est.)</p>
                   </div>
                   <div className="flex flex-col">
-                    <li className="text-xl font-medium text-center h-full">{s} s</li>
+                    <li className="text-sm md:text-lg lg:text-xl font-medium text-center h-full">{s} s</li>
                     <p className='text-xs p-2'>0-100 km/h*</p>
                   </div>
                   <div className="flex flex-col">
-                    <li className="text-xl font-medium text-center h-full">{speed} km/h</li>
+                    <li className="text-sm md:text-lg lg:text-xl font-medium text-center h-full">{speed} km/h</li>
                     <p className='text-xs p-2'>Top Speed†</p>
                   </div>
                   <div className="flex flex-col">
-                    <li className="text-xl font-medium text-center h-full">{hp} hp</li>
+                    <li className="text-sm md:text-lg lg:text-xl font-medium text-center h-full">{hp} hp</li>
                     <p className='text-xs p-2'>Peak Power</p>
                   </div>
                 </ul>

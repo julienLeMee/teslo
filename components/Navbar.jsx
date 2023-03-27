@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { GrLanguage } from 'react-icons/gr'
 
-const Navbar = ({ textColor, logoColor }) => {
+const Navbar = ({ position = 'fixed', textColor, logoColor }) => {
 
   const [nav, setNav] = useState(false)
 
@@ -16,7 +16,13 @@ const Navbar = ({ textColor, logoColor }) => {
 
   return (
     <>
-      <div className={`w-full flex items-center justify-between py-4 px-8 fixed ${textColor} font-medium z-[50]`}>
+    {nav && (
+      <div
+        className="fixed z-40 top-0 left-0 w-full h-full bg-black/30 bg-opacity-50 backdrop-blur-sm"
+        onClick={handleNav}
+      />
+    )}
+      <div className={`w-full flex items-center justify-between py-4 px-8 ${position} ${textColor} font-medium z-[50]`}>
         <Link href='/'>
           <Image
             src={logo}

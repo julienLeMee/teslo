@@ -5,7 +5,7 @@ import React from 'react'
 const models = () => {
   return (
     <>
-      <Navbar />
+      <Navbar position='absolute' />
       <ModelItem
         textColor='text-[#181A1F]'
         model='Model S'

@@ -8,6 +8,7 @@ const powerwall = () => {
   return (
     <>
       <Navbar
+        position='absolute'
         textColor={'text-[#ffffff]'}
         logoColor={'invert'}
       />
@@ -16,19 +17,19 @@ const powerwall = () => {
           <div className="flex flex-col">
             <h1 className="text-4xl text-white tracking-wider font-medium text-center pt-20">Powerwall</h1>
           </div>
-            <div className="w-full h-32 md:w-[50%] max-w-[90%] mx-auto flex justify-center items-center text-white">
+            <div className="w-full md:w-[70%] h-32 lg:w-[55%] max-w-[90%] mx-auto flex justify-center items-center text-white">
               <div className="flex flex-col md:flex-row w-full items-center justify-around">
                 <ul className='flex w-full items-center justify-around'>
                   <div className="flex flex-col items-center justify-center">
-                    <SlEnergy className="text-4xl font-medium text-center h-full pb-2" />
+                    <SlEnergy className="text-base md:text-lg lg:text-4xl font-medium text-center h-full pb-2" />
                     <p className='text-xs py-1'>Store Energy</p>
                   </div>
                   <div className="flex flex-col items-center justify-center">
-                    <li className="text-3xl font-medium text-center h-full pt-3">24/7</li>
+                    <li className="text-base md:text-lg lg:text-3xl font-medium text-center h-full pt-3">24/7</li>
                     <p className='text-xs py-1'>Backup Protection</p>
                   </div>
                   <div className="flex flex-col items-center justify-center">
-                    <MdOutlineEnergySavingsLeaf className="text-4xl font-medium text-center h-full pb-2" />
+                    <MdOutlineEnergySavingsLeaf className="text-base md:text-lg lg:text-4xl font-medium text-center h-full pb-2" />
                     <p className='text-xs py-1'>Power Your Home</p>
                   </div>
                 </ul>

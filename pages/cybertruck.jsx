@@ -5,7 +5,7 @@ import React from 'react'
 const cybertruck = () => {
   return (
     <>
-      <Navbar />
+      <Navbar position='absolute' />
       <div className="w-full h-screen bg-model-cybertruck-details">
         <div className="flex flex-col justify-between h-full py-10">
           <div className="flex flex-col mt-12 max-w-[90%] mx-auto">

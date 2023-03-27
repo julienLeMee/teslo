@@ -6,6 +6,7 @@ const modely = () => {
   return (
     <>
       <Navbar
+        position='absolute'
         textColor={'text-[#ffffff]'}
         logoColor={'invert'}
       />
