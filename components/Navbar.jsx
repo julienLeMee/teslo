@@ -13,6 +13,7 @@ const Navbar = () => {
     setNav(!nav)
   }
 
+
   return (
     <>
       <div className="w-full flex items-center justify-between py-4 px-8 fixed text-black/80 font-medium z-[50]">
@@ -29,37 +30,37 @@ const Navbar = () => {
 
         <div>
           <ul className='tracking-wide text-sm hidden sm:flex'>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
                 href='/'>Model S
               </Link>
             </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
                 href='/'>Model 3
               </Link>
             </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
                 href='/'>Model X
               </Link>
             </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
                 href='/'>Model Y
               </Link>
             </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
                 href='/'>Cybertruck
               </Link>
             </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
                 href='/'>Powerwall
@@ -70,19 +71,19 @@ const Navbar = () => {
 
         <div>
           <ul className='tracking-wide text-sm hidden sm:flex'>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
                 href='/'>Shop
               </Link>
             </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
                 href='/'>Account
               </Link>
             </li>
-            <li onClick={handleNav} className='h-full text-center my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded'>
+            <li onClick={handleNav} className='h-full text-center my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
               <span
                 className='p-4'>
                   Menu
@@ -96,7 +97,7 @@ const Navbar = () => {
         {nav ? <AiOutlineClose size={20} style={{color: 'white'}} className='hover:cursor-pointer' /> : <AiOutlineMenu size={20} style={{color: 'black'}} className='hover:cursor-pointer' />}
       </div>
       {/* Mobile Menu */}
-      <div className={ nav ? 'absolute top-0 right-0 bottom-0 flex flex-col justify-between py-10 items-center w-full lg:w-[22%] h-screen bg-white ease-in duration-500' : 'absolute top-0 right-[-100%] bottom-0 flex flex-col justify-between py-10 items-center w-full lg:w-[22%] h-screen bg-white ease-in duration-500'}>
+      <div className={ nav ? 'absolute top-0 right-0 bottom-0 flex flex-col justify-between py-10 items-center w-full md:w-[35%] lg:w-[22%] h-screen bg-white ease-in duration-500' : 'absolute top-0 right-[-100%] bottom-0 flex flex-col justify-between py-10 items-center w-full lg:w-[22%] h-screen bg-white ease-in duration-500'}>
         <div className="w-[80%] flex justify-end">
           <AiOutlineClose onClick={handleNav} size={40} style={{color: 'black'}} className='hover:cursor-pointer text-black/80 hover:bg-black/10 rounded p-2 duration-300' />
         </div>
