@@ -48,7 +48,6 @@ const ModelItem = ( { textColor, model, subtitle, bgImg, btn, secondBtn, km, s, 
                 </div>
               </div>
             </div>
-
         </div>
       </div>
     </>

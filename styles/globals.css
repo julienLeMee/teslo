@@ -105,6 +105,15 @@ body {
   max-height: 100vh;
 }
 
+.bg-model-cybertruck-details {
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/0f22af4d-15e0-452d-ba66-1359490b4a0b/bvlatuR/std/2880x1800/Cybertruck-Hero-Desktop");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  max-height: 100vh;
+}
+
 /* Animation */
 @keyframes pulse {
   0% {
