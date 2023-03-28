@@ -1,13 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
 
-const ProductItem = ( { model, bgImg, btn, secondBtn, link } ) => {
+const ProductItem = ( { model, subtitle, bgImg, btn, secondBtn, link } ) => {
   return (
     <>
       <div className={`w-full h-screen ${bgImg} text-[#181A1F]`}>
         <div className="flex flex-col justify-between h-full py-10">
-          <h1 className="text-4xl tracking-wider font-medium text-center pt-20">{model}</h1>
-
+          <div className="flex flex-col">
+            <h1 className="text-4xl tracking-wider font-medium text-center pt-20">{model}</h1>
+            <Link href={`${link}`}>
+              <p className="text-center text-sm underline">{subtitle}</p>
+            </Link>
+          </div>
             <div className="w-full md:w-[40%] max-w-[90%] mx-auto flex items-center justify-center py-4">
               <div className="flex flex-col md:flex-row items-center justify-center w-full mx-auto">
                 <Link
