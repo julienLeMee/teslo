@@ -70,7 +70,7 @@ body {
 /* Background page details */
 
 .bg-model-s-details {
-  background: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/9ed31f26-4d49-4701-bc5b-2121ff85e5b3/bvlatuR/std/2880x1800/Model-S-Main-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/9ed31f26-4d49-4701-bc5b-2121ff85e5b3/bvlatuR/std/2880x1800/Model-S-Main-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@ body {
 }
 
 .bg-model-3-details {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ body {
 }
 
 .bg-model-x-details {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/37612e96-a8a7-46ea-9847-4fff683483b0/bvlatuR/std/2880x1800/Model-X-Main-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/37612e96-a8a7-46ea-9847-4fff683483b0/bvlatuR/std/2880x1800/Model-X-Main-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ body {
 }
 
 .bg-model-y-details {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/91abd4c7-32a1-41cc-ade5-b64774dbea61/bvlatuR/std/2880x1800/Model-Y-Main-Hero-Desktop-Global?quality=auto-medium&amp;format=auto");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/91abd4c7-32a1-41cc-ade5-b64774dbea61/bvlatuR/std/2880x1800/Model-Y-Main-Hero-Desktop-Global?quality=auto-medium&amp;format=auto");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -106,7 +106,8 @@ body {
 }
 
 .bg-model-cybertruck-details {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/0f22af4d-15e0-452d-ba66-1359490b4a0b/bvlatuR/std/2880x1800/Cybertruck-Hero-Desktop");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/0f22af4d-15e0-452d-ba66-1359490b4a0b/bvlatuR/std/2880x1800/Cybertruck-Hero-Desktop");
+  /* background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/0f22af4d-15e0-452d-ba66-1359490b4a0b/bvlatuR/std/2880x1800/Cybertruck-Hero-Desktop"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,7 +116,8 @@ body {
 }
 
 .bg-model-powerwall-details {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/dede7688-4a2a-49ff-9696-5052e8f6cf6e/bvlatuR/std/2880x1800/PW-Hero-Desktop-EMEA?quality=auto-medium&format=auto");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/2b0b0f0d-0b1f-4b0f-9b1f-1f2b0b0b0b0b/bvlatuR/std/2880x1800/PW-Hero-Desktop-EMEA?quality=auto-medium&format=auto");
+  /* background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/dede7688-4a2a-49ff-9696-5052e8f6cf6e/bvlatuR/std/2880x1800/PW-Hero-Desktop-EMEA?quality=auto-medium&format=auto"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

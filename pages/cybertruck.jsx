@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import React from 'react'
@@ -27,6 +28,9 @@ const cybertruck = () => {
             </div>
         </div>
       </div>
+      <h1 className='bg-black py-16 w-full mx-auto text-center text-3xl -tracking-wide text-white flex items-center justify-center'>Interior of the future</h1>
+      <img src="https://tesla-cdn.thron.com/delivery/public/image/tesla/2a08bcbc-e536-46d2-a984-d6c8f41ac48f/bvlatuR/std/2880x1800/Model-S-Interior-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto" alt="interior car" className="w-full h-screen object-cover"/>
+      <Footer />
     </>
   )
 }
