@@ -5,9 +5,13 @@ import React from 'react'
 const models = () => {
   return (
     <>
-      <Navbar position='absolute' />
+      <Navbar
+        position='absolute'
+        textColor={'text-[#ffffff]'}
+        logoColor={'invert'}
+      />
       <ModelItem
-        textColor='text-[#181A1F]'
+        textColor='text-white'
         model='Model S'
         subtitle='Plaid'
         bgImg='bg-model-s-details'

@@ -5,9 +5,13 @@ import React from 'react'
 const modelx = () => {
   return (
     <>
-      <Navbar position='absolute' />
+      <Navbar
+        position='absolute'
+        textColor={'text-[#ffffff]'}
+        logoColor={'invert'}
+      />
       <ModelItem
-        textColor='text-[#181A1F]'
+        textColor='text-white'
         model='Model X'
         subtitle='Plaid'
         bgImg='bg-model-x-details'

@@ -12,7 +12,7 @@ const Hero = () => {
     <>
       <div className="w-full h-screen bg-hero text-[#181A1F]">
         <div className="flex flex-col justify-between h-full py-10">
-          <h1 className="text-4xl tracking-wider font-medium text-center pt-20">Model 3</h1>
+          <h1 className="text-white text-4xl tracking-wider font-medium text-center pt-20">Model 3</h1>
 
           <div className="flex flex-col">
             <div className="w-full md:w-[40%] max-w-[90%] mx-auto flex items-center justify-center py-4">

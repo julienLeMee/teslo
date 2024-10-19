@@ -6,12 +6,16 @@ import React from 'react'
 const cybertruck = () => {
   return (
     <>
-      <Navbar position='absolute' />
+      <Navbar
+        position='absolute'
+        textColor={'text-[#ffffff]'}
+        logoColor={'invert'}
+      />
       <div className="w-full h-screen bg-model-cybertruck-details">
         <div className="flex flex-col justify-between h-full py-10">
           <div className="flex flex-col mt-12 max-w-[90%] mx-auto">
-            <img src="cybertruck.svg" alt="Cybertruck Logo" className="w-[350px] h-[120px] object-cover mx-auto" />
-            <p className="text-center text-xs tracking-wide">BETTER UTILITY THAN A TRUCK WITH MORE PERFORMANCE THAN A SPORTS CAR</p>
+            <img src="cybertruck.svg" alt="Cybertruck Logo" className="w-[350px] h-[120px] object-cover mx-auto invert"/>
+            <p className="text-white text-center text-xs tracking-wide">BETTER UTILITY THAN A TRUCK WITH MORE PERFORMANCE THAN A SPORTS CAR</p>
           </div>
             <div className="w-full h-32 md:w-[50%] max-w-[90%] mx-auto flex justify-center text-white">
               <div className="flex flex-col w-full items-center justify-around">
@@ -28,8 +32,8 @@ const cybertruck = () => {
             </div>
         </div>
       </div>
-      <h1 className='bg-black py-16 w-full mx-auto text-center text-3xl -tracking-wide text-white flex items-center justify-center'>Interior of the future</h1>
-      <img src="https://tesla-cdn.thron.com/delivery/public/image/tesla/2a08bcbc-e536-46d2-a984-d6c8f41ac48f/bvlatuR/std/2880x1800/Model-S-Interior-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto" alt="interior car" className="w-full h-screen object-cover"/>
+      <h1 className='bg-black py-16 w-full mx-auto text-center text-3xl -tracking-wide text-white flex items-center justify-center'>Built for any planet</h1>
+      <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Cybertruck-End-of-Page-Desktop-v2.png"/>
       <Footer />
     </>
   )

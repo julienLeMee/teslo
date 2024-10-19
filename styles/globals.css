@@ -14,7 +14,7 @@ body {
 /* Background Models homepage */
 
 .bg-hero {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/a269d7b4-87a9-4057-9ac5-2565e56a188e/bvlatuR/std/4096x2560/Homepage-Model-3-Desktop-LHD?quality=auto-medium&amp;format=auto");
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body {
 }
 
 .bg-model-y {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/dfa1ee09-8585-422e-a32a-067e14159aa0/bvlatuR/std/2880x2400/Homepage-Model-Y-Global-Desktop?quality=auto-medium&amp;format=auto");
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global-v2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@ body {
 }
 
 .bg-model-s {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/58949946-f4bf-4908-b707-18b2fa6020a5/bvlatuR/std/2880x1800/Homepage-Model-S-Desktop-LHD?quality=auto-medium&amp;format=auto");
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-US.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ body {
 }
 
 .bg-model-x {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/05a76324-947e-453b-a628-8b2d759756fa/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD?quality=auto-medium&amp;format=auto");
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ body {
 }
 
 .bg-solar-and-powerwall {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/27d0055c-b0bf-476c-b3aa-ec59d314f871/bvlatuR/std/0x0/27d0055c-b0bf-476c-b3aa-ec59d314f871");
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-3-Desktop-ROW.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
 }
 
 .bg-accessories {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/0x0/dd739764-bcaa-4263-9488-8c73bc9fb046");
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-US.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ body {
 /* Background page details */
 
 .bg-model-s-details {
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/9ed31f26-4d49-4701-bc5b-2121ff85e5b3/bvlatuR/std/2880x1800/Model-S-Main-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-NA.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@ body {
 }
 
 .bg-model-3-details {
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ body {
 }
 
 .bg-model-x-details {
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/37612e96-a8a7-46ea-9847-4fff683483b0/bvlatuR/std/2880x1800/Model-X-Main-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-X-Main-Hero-Desktop-NA-v3.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ body {
 }
 
 .bg-model-y-details {
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/91abd4c7-32a1-41cc-ade5-b64774dbea61/bvlatuR/std/2880x1800/Model-Y-Main-Hero-Desktop-Global?quality=auto-medium&amp;format=auto");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-Y-Main-Hero-Desktop-NA.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -106,7 +106,7 @@ body {
 }
 
 .bg-model-cybertruck-details {
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/0f22af4d-15e0-452d-ba66-1359490b4a0b/bvlatuR/std/2880x1800/Cybertruck-Hero-Desktop");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop-v3.png");
   /* background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/0f22af4d-15e0-452d-ba66-1359490b4a0b/bvlatuR/std/2880x1800/Cybertruck-Hero-Desktop"); */
   background-size: cover;
   background-position: center;
@@ -116,7 +116,7 @@ body {
 }
 
 .bg-model-powerwall-details {
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://tesla-cdn.thron.com/delivery/public/image/tesla/2b0b0f0d-0b1f-4b0f-9b1f-1f2b0b0b0b0b/bvlatuR/std/2880x1800/PW-Hero-Desktop-EMEA?quality=auto-medium&format=auto");
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%), url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-3-Desktop-ROW.png");
   /* background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/dede7688-4a2a-49ff-9696-5052e8f6cf6e/bvlatuR/std/2880x1800/PW-Hero-Desktop-EMEA?quality=auto-medium&format=auto"); */
   background-size: cover;
   background-position: center;

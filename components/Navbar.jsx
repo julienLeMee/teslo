@@ -22,14 +22,14 @@ const Navbar = ({ position = 'fixed', textColor, logoColor }) => {
         onClick={handleNav}
       />
     )}
-      <div className={`w-full flex items-center justify-between py-4 px-8 ${position} ${textColor} font-medium z-[50]`}>
+      <div className={`text-white w-full flex items-center justify-between py-4 px-8 ${position} ${textColor} font-medium z-[50]`}>
         <Link href='/'>
           <Image
             src={logo}
             width={80}
             height='auto'
             alt='logo'
-            className={`cursor-pointer object-cover mx-4 my-2 ${logoColor}`}
+            className={`cursor-pointer object-cover mx-4 my-2 ${logoColor} invert`}
             priority
           />
         </Link>

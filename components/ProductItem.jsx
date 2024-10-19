@@ -7,9 +7,9 @@ const ProductItem = ( { model, subtitle, bgImg, btn, secondBtn, link } ) => {
       <div className={`w-full h-screen ${bgImg} text-[#181A1F]`}>
         <div className="flex flex-col justify-between h-full py-10">
           <div className="flex flex-col">
-            <h1 className="text-4xl tracking-wider font-medium text-center pt-20">{model}</h1>
+            <h1 className="text-white text-4xl tracking-wider font-medium text-center pt-20">{model}</h1>
             <Link href={`${link}`}>
-              <p className="text-center text-sm underline">{subtitle}</p>
+              <p className="text-white text-center text-sm underline">{subtitle}</p>
             </Link>
           </div>
             <div className="w-full md:w-[40%] max-w-[90%] mx-auto flex items-center justify-center py-4">
