@@ -11,24 +11,17 @@ const Hero = () => {
   return (
     <>
       <div className="w-full h-screen bg-hero text-[#181A1F]">
-        <div className="flex flex-col justify-between h-full py-10">
-          <h1 className="text-white text-4xl tracking-wider font-medium text-center pt-20">Model 3</h1>
+        <div className="flex flex-col justify-center items-start px-8 h-full py-10">
+          <h1 className="text-white text-4xl md:text-6xl font-medium font-mono pt-20 text-left">WE,<br /> ROBOT</h1>
 
           <div className="flex flex-col">
-            <div className="w-full md:w-[40%] max-w-[90%] mx-auto flex items-center justify-center py-4">
+            <div className="w-full mx-auto flex items-center justify-center py-4">
               <div className="flex flex-col md:flex-row items-center justify-between w-full">
                 <Link
-                  href='/model3'
-                  className="bg-black/70 mr-2 w-full mx-auto text-center m-2 my-2 md:my-0 rounded text-white text-sm h-full cursor-pointer">
-                  <span className='py-1 mt-2 flex items-center justify-center h-full my-auto'>
-                    Custom Order
-                  </span>
-                </Link>
-                <Link
-                  href='/model3'
-                  className="bg-white/80 w-full mx-auto text-center m-2 my-2 md:my-0 rounded text-[#181A1F] text-sm h-full cursor-pointer">
-                  <span className='py-1 mt-2 flex items-center justify-center h-full my-auto'>
-                    Demo Drive
+                  href='/werobot'
+                  className="bg-white hover:bg-white/80 w-full mx-auto text-center m-2 my-2 md:my-0 rounded text-[#181A1F] text-sm h-full cursor-pointer">
+                  <span className='px-2 py-1 mt-2 flex items-center justify-center h-full my-auto'>
+                    More informations
                   </span>
                 </Link>
               </div>

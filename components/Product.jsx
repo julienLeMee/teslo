@@ -5,6 +5,7 @@ import ProductItem from './ProductItem'
 const Product = () => {
   return (
     <>
+      <ProductItem model='Model 3' bgImg='bg-model-3' btn='Custom Order' link='/model3' />
       <ProductItem model='Model Y' bgImg='bg-model-y' btn='Custom Order' link='/modely' />
       <ProductItem model='Model S' subtitle='Schedule a Demo Drive' bgImg='bg-model-s' btn='Custom Order' link='/models' />
       <ProductItem model='Model X' subtitle='Schedule a Demo Drive' bgImg='bg-model-x' btn='Custom Order' link='/modelx' />

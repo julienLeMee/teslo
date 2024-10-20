@@ -36,40 +36,28 @@ const Navbar = ({ position = 'fixed', textColor, logoColor }) => {
 
         <div>
           <ul className='tracking-wide text-sm hidden sm:flex'>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/50 duration-300 pt-2 rounded font-normal'>
+              <Link
+                className='p-4'
+                href='/werobot'>We, Robot
+              </Link>
+            </li>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/50 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
                 href='/models'>Model S
               </Link>
             </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
-              <Link
-                className='p-4'
-                href='/model3'>Model 3
-              </Link>
-            </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/50 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
                 href='/modelx'>Model X
               </Link>
             </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
-              <Link
-                className='p-4'
-                href='/modely'>Model Y
-              </Link>
-            </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
+            <li className='h-full my-auto cursor-pointer hover:bg-black/50 duration-300 pt-2 rounded font-normal'>
               <Link
                 className='p-4'
                 href='/cybertruck'>Cybertruck
-              </Link>
-            </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
-              <Link
-                className='p-4'
-                href='/powerwall'>Powerwall
               </Link>
             </li>
           </ul>
@@ -77,19 +65,7 @@ const Navbar = ({ position = 'fixed', textColor, logoColor }) => {
 
         <div>
           <ul className='tracking-wide text-sm hidden sm:flex'>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
-              <Link
-                className='p-4'
-                href='/'>Shop
-              </Link>
-            </li>
-            <li className='h-full my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
-              <Link
-                className='p-4'
-                href='/'>Account
-              </Link>
-            </li>
-            <li onClick={handleNav} className='h-full text-center my-auto cursor-pointer hover:bg-black/10 duration-300 pt-2 rounded font-normal'>
+            <li onClick={handleNav} className='h-full text-center my-auto cursor-pointer hover:bg-black/50 duration-300 pt-2 rounded font-normal'>
               <span
                 className='p-4'>
                   Menu
@@ -100,7 +76,7 @@ const Navbar = ({ position = 'fixed', textColor, logoColor }) => {
 
         {/* Mobile Button */}
       <div onClick={handleNav} className='sm:hidden z-10'>
-        {nav ? <AiOutlineClose size={20} style={{color: 'white'}} className='hover:cursor-pointer' /> : <AiOutlineMenu size={20} style={{color: 'black'}} className='hover:cursor-pointer' />}
+        {nav ? <AiOutlineClose size={20} style={{color: 'white'}} className='hover:cursor-pointer' /> : <AiOutlineMenu size={20} style={{color: 'white'}} className='hover:cursor-pointer' />}
       </div>
       {/* Mobile Menu */}
       <div className={ nav ? 'absolute top-0 right-0 bottom-0 flex flex-col justify-between py-10 items-center w-full md:w-[35%] lg:w-[22%] h-screen bg-white ease-in duration-500' : 'absolute top-0 right-[-100%] bottom-0 flex flex-col justify-between py-10 items-center w-full lg:w-[22%] h-screen bg-white ease-in duration-500'}>
