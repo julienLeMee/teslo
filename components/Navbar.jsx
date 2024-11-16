@@ -13,7 +13,6 @@ const Navbar = ({ position = 'fixed', textColor, logoColor }) => {
     setNav(!nav)
   }
 
-
   return (
     <>
     {nav && (
@@ -79,7 +78,7 @@ const Navbar = ({ position = 'fixed', textColor, logoColor }) => {
         {nav ? <AiOutlineClose size={20} style={{color: 'white'}} className='hover:cursor-pointer' /> : <AiOutlineMenu size={20} style={{color: 'white'}} className='hover:cursor-pointer' />}
       </div>
       {/* Mobile Menu */}
-      <div className={ nav ? 'absolute top-0 right-0 bottom-0 flex flex-col justify-between py-10 items-center w-full md:w-[35%] lg:w-[22%] h-screen bg-white ease-in duration-500' : 'absolute top-0 right-[-100%] bottom-0 flex flex-col justify-between py-10 items-center w-full lg:w-[22%] h-screen bg-white ease-in duration-500'}>
+      <div className={ nav ? 'absolute top-0 right-0 bottom-0 flex flex-col justify-between py-10 items-center w-full md:w-[35%] lg:w-[22%] h-screen bg-white ease-in duration-500' : 'absolute top-0 right-[-100%] bottom-0 hidden flex-col justify-between py-10 items-center w-full lg:w-[22%] h-screen bg-white ease-in duration-500'}>
         <div className="w-[80%] flex justify-end">
           <AiOutlineClose onClick={handleNav} size={40} style={{color: 'black'}} className='hover:cursor-pointer text-black/80 hover:bg-black/10 rounded p-2 duration-300' />
         </div>
