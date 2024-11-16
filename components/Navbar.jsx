@@ -82,25 +82,13 @@ const Navbar = ({ position = 'fixed', textColor, logoColor }) => {
         <div className="w-[80%] flex justify-end">
           <AiOutlineClose onClick={handleNav} size={40} style={{color: 'black'}} className='hover:cursor-pointer text-black/80 hover:bg-black/10 rounded p-2 duration-300' />
         </div>
-        <div className="w-[80%] h-full flex flex-col justify-center">
+        <div className="w-[80%] h-full flex flex-col justify-start">
           <ul className='w-full'>
             <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm duration-300'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Accueil</Link>
             </li>
             <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm duration-300'>
-              <Link className='flex items-center cursor-pointer pt-2' href='/'>Notre histoire</Link>
-            </li>
-            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm duration-300'>
-              <Link className='flex items-center cursor-pointer pt-2' href='/'>Nos produits</Link>
-            </li>
-            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm duration-300'>
-              <Link className='flex items-center cursor-pointer pt-2' href='/'>Blog</Link>
-            </li>
-            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm duration-300'>
-              <Link className='flex items-center cursor-pointer pt-2' href='/'>Contact</Link>
-            </li>
-            <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm duration-300'>
-              <Link className='flex items-center cursor-pointer pt-2' href='/'>Accueil</Link>
+              <Link className='flex items-center cursor-pointer pt-2' href='/cybertruck'>CYBERTRUCK</Link>
             </li>
             <li onClick={handleNav} className='text-black/80 hover:bg-black/10 rounded pl-2 p-1 text-sm duration-300'>
               <Link className='flex items-center cursor-pointer pt-2' href='/'>Notre histoire</Link>
